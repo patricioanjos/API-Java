@@ -4,7 +4,7 @@ import com.estudo.springboot.tarefas.api.model.Tarefa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository // Anotação opcional, mas boa prática para indicar um bean de repositório
+@Repository
 public interface TarefaRepository extends JpaRepository<Tarefa, Long> {
     // A interface JpaRepository já nos fornece todos os métodos CRUD básicos:
     // save(), findAll(), findById(), deleteById(), etc.

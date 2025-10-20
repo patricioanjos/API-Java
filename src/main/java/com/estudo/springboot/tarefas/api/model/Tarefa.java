@@ -19,10 +19,6 @@ public class Tarefa {
     private LocalDate dataEntrega;
     private String responsavel;
 
-    // --- Getters e Setters ---
-    // Você pode pedir ao Eclipse para gerar isso:
-    // Clique com o botão direito no meio do código -> Source -> Generate Getters and Setters...
-
     public Long getId() {
         return id;
     }

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@RestController // Combina @Controller e @ResponseBody, simplificando a criação de APIs REST
+@RestController
 @RequestMapping("/tarefas") // Define a URL base para todos os endpoints deste controller
 public class TarefaController {
 
